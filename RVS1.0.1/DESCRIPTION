@@ -1,0 +1,14 @@
+Package: RVS
+Title: Run a Robust Variant Score test for SNP(s) association with binary trait called from sequencing data using external controls.
+Version: 0.0
+Author: Andriy Derkach[aut, cre], Ted Chiang [cre], Jiafen Gong[cre], Lisa Strug [aut]
+Maintainer: Jiafen Gong <jiafen.gong@sickkids.ca>
+Description: Robust variant score test can be used for association test when external sequencing control data is used. Compared to the regular score test, it used robust variance for the score statistic which used the conditional genotype probabilities calculated from the VCF file. For details about the RVS method, please see the paper Association analysis using next-generation sequence data from publicly available control groups: the robust variance score statistic for more details in 2014, bioinformatics. The package include four modules: sequence data simulation, (generate_seqdata_null and generate_seqdata_alt); vcf file process (cf_process); association test from expected genotype probability (RVS_asy, RVS_btrap for common variants and RVS_rare for rare variants) and association test from genotype calls (regScore_Rao, regScore_btrap, regScore_rare). 
+Depends: R (>= 3.1.2), devtools, roxygen2,CompQuadForm, MASS
+Suggests:  knitr, rmarkdown
+Imports: grid, grDevices, graphics, stats, utils
+License: GPL-2
+LazyData: yes
+LazyLoad: yes
+Date/Publication: 2016-01-19
+
