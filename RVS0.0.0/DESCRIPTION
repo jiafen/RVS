@@ -1,5 +1,5 @@
 Package: RVS
-Title: Run a Robust Variant Score test for SNP(s) association with binary trait called from sequencing data using external controls.
+Title: Robust Variant Score test for association with binary traits whose  SNP information retrieved from sequencing data using external controls.
 Version: 0.0
 Author: Andriy Derkach[aut, cre], Ted Chiang [cre], Jiafen Gong[cre], Lisa Strug [aut]
 Maintainer: Jiafen Gong <jiafen.gong@sickkids.ca>
@@ -10,5 +10,5 @@ Imports: grid, grDevices, graphics, stats, utils
 License: GPL-2
 LazyData: yes
 LazyLoad: yes
-Date/Publication: 2016-01-19
+Date: 2016-01-19
 
